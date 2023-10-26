@@ -11,3 +11,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+canvas,
+span,
+input,
+table,
+li,
+ul,
+ol,
+*,
+textarea,
+.p-link {
+	font-family: 'Open Sans', sans-serif !important;
+  /* font-size: 16px; */
+}
+
+.color{
+  color: #F47C7C;
+}
+.background{
+  background-color: #F47C7C;
+}
+ 
+.bodyText{
+  color:#3e1f55;
+  font-family: 'Sriracha',handwriting;
+  font: italic;
+
+}
+.newArrival{
+  background-color: #f2f2f2;
+}
+.cardColor{
+  background-color: #f7ca5b;
+  background-image: url(https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-banner-bg-blob-yellow.svg);
+}
+
+.elementColor{
+    background-color: #f7ca5b;
+    background-image: url(https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-cta-blob-bg-overlay.svg);
+}

@@ -55,7 +55,7 @@ const Logo = () =>{
                   <div className='bodyText p-4'>SUBSCRIBE TO OUR NEWSLETTER</div>
                   <h1 className='bodyText font-bold text-5xl p-4'>Don't Miss Out!</h1>
                   <div className='text-sm p-2 text-gray-700'>Get the latest on sales, special offer, new releases and more…</div>
-                  <input placeholder=' Search Products...' className=' w-2/4  p-2 border border-gray-300 rounded' />
+                  <input placeholder=' Email Address' className=' w-2/4  p-2 border border-gray-300 rounded' />
                   <button className='background text-white font-bold  text-md border rounded-md p-2 ml-2'>SUBSCRIBE</button>
                   <button></button>
             </div>

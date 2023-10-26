@@ -24,12 +24,12 @@ const Stars =() =>{
 const NewArrivals = () =>{
   const size = useWindowSize();
     return(
-        <div className="newArrival">
+        <div className="newArrival mt-10">
             <div className='h-10'></div>
             <div className='mt-10'>
                 <div className="bodyText font-bold text-5xl flex justify-center">New Arrivals</div>
-                <div className="text-gray-700 mt-4 flex justify-center">Scelerisque duis semper vitae eget mattis viverra sem risus vel suspendisse lorem vestibulum pulvinar habitant sed.</div>
-                <div className='mx-28 mt-6 flex flex-wrap'>
+                <div className="text-gray-700 mt-4 flex justify-center mx-6">Scelerisque duis semper vitae eget mattis viverra sem risus vel suspendisse lorem vestibulum pulvinar habitant sed.</div>
+                <div className={size.width>=500?'mx-28 mt-6 flex flex-wrap':'mx-12 mt-6 flex flex-wrap'}>
                      <div className='mx-2 mt-4'>
                        <img src={card4} alt='images'/>
                        <div className='bodyText mt-4 m-2'>Extra Soft Touch Lamb Doll</div>
@@ -69,9 +69,9 @@ const NewArrivals = () =>{
    </div>
    <div className='mt-10'>
                 <div className="bodyText font-bold text-5xl flex justify-center">Best Seller</div>
-                <div className='flex justify-center  text-gray-700'>Scelerisque duis semper vitae eget mattis viverra sem risus vel suspendisse lorem vestibulum pulvinar habitant sed.</div>
+                <div className='flex justify-center  text-gray-700 mx-6 mt-4'>Scelerisque duis semper vitae eget mattis viverra sem risus vel suspendisse lorem vestibulum pulvinar habitant sed.</div>
         </div>
-        <div className='mx-28 mt-10 flex flex-wrap'>
+        <div className={size.width>=500?'mx-28 mt-6 flex flex-wrap':'mx-12 mt-6 flex flex-wrap'}>
                      <div className='mx-2 mt-4'>
                        <img src={card4} alt='images'/>
                        <div className='bodyText mt-4 m-2'>Extra Soft Touch Lamb Doll</div>

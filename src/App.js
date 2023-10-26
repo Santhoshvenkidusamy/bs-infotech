@@ -10,8 +10,12 @@ import NewArrivals from './newArrivals';
 function App() {
   return (
     <>
+    <div className='cd'>
+      <div className='cg'>
     <Header />
     <Body/>
+    </div>
+    </div>
     <Cards />
     <NewArrivals />
     <Logo />

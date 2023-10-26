@@ -3,7 +3,7 @@ import useWindowSize from './useWindowSize';
 const Body = () =>{
     const size = useWindowSize()
  return(
-    <div className={size.width >= 768 ?"flex flex-wrap mx-32":"mx-32"}>
+    <div className={size.width >= 768 ?"flex flex-wrap mx-32 ":"mx-8"}>
        <div className={size.width>= 768 ?"mt-20 w-5/12":'mt-20'}>
            <div className="color font-bold text-sm"> FLAT  30%  OFF +  CASHBACK!  * </div>
            <h1 className="bodyText font-bold text-5xl mt-4">Baby Essential Fashion & Nursery</h1>

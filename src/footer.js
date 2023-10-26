@@ -3,7 +3,9 @@ import {BsFacebook} from 'react-icons/bs'
 import {BsTwitter} from 'react-icons/bs'
 import {BsInstagram} from 'react-icons/bs'
 import {BsYoutube} from 'react-icons/bs'
+import useWindowSize from './useWindowSize'
 const Footer = () =>{
+    const size = useWindowSize()
     return(
         <div className="mt-20 newArrival">
             <div className="h-10"></div>
@@ -20,7 +22,7 @@ const Footer = () =>{
                       <BsYoutube className='mx-2 color'/>
                   </div>
                  </div>
-                 <div className='mx-12'>
+                 <div className={size.width>=600?'mx-12':'mt-2 mx-2'}>
                     <h1 className='bodyText font-bold '>Customer Service</h1>
                     <ul className='mt-8  text-sm text-gray-700'>
                         <li className='my-2'>Contact Us</li>
@@ -31,7 +33,7 @@ const Footer = () =>{
                         <li  className='my-2'>Return & Exchanges</li>
                     </ul>
                  </div>
-                 <div className='mx-12'>
+                 <div className={size.width>=600?'mx-12':'mt-2 mx-2'}>
                     <h1 className='bodyText font-bold '>Categories</h1>
                     <ul className='mt-8 text-sm text-gray-700'>
                         <li className='my-2'>Clothing & Fashion</li>
@@ -41,7 +43,7 @@ const Footer = () =>{
                         <li  className='my-2'>Baby Diapering</li>
                     </ul>
                  </div>
-                 <div className='mx-12'>
+                 <div className={size.width>=600?'mx-12':'mt-2 mx-2'}>
                     <h1 className='bodyText font-bold '>Our Company</h1>
                     <ul className='mt-8  text-sm text-gray-700'>
                         <li className='my-2'>Corporate Inforamtion</li>

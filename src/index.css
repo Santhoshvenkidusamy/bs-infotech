@@ -57,3 +57,59 @@ textarea,
     background-color: #f7ca5b;
     background-image: url(https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-cta-blob-bg-overlay.svg);
 }
+
+.cg{
+  background-image: url("https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-hero-bg-blob-green.svg");
+  background-repeat: no-repeat;
+}
+
+.cd{
+  background-color: #ffffff;
+  background-image: url(https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-hero-bg-blob-pink.svg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 60vw auto;
+}
+
+.card1{
+  background-color: #f7f7f7;
+    background-image: url(https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-promo-banner-blob-bg-1.svg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.card2{
+    background-color:#f7f7f7;
+    background-image: url(https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-promo-banner-blob-bg-2.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.cards3{
+  background-color: #f7f7f7;
+    background-image: url(https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-promo-banner-blob-bg-3.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.card3{
+  background-image: url(https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-promo-banner-blob-bg-4.svg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+
+.logo{
+  background-image: url(https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-blob-shape-green.svg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 20vw auto;
+    opacity: 1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.logos{
+  background-color: #ffffff;
+  background-image: url(https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-blob-pink.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}

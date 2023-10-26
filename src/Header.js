@@ -5,7 +5,7 @@ import useWindowSize from './useWindowSize';
 const Header = () =>{
     const size = useWindowSize();
     return(
-<div className='m-6'>
+<div className='p-6'>
     <div className='flex justify-between'>
         <div className='flex'>
         <img src={logo} alt='image' />
